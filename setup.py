@@ -8,7 +8,7 @@ setup(
   author = 'Vladislav Kozlov',                   # Type in your name
   author_email = 'vlad.kozlov.ds@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/vikozlov89/extended_preprocessors',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/vikozlov89/extended_preprocessors/archive/refs/tags/v_0_0_3.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/vikozlov89/extended_preprocessors/archive/refs/tags/v_0_0_4.tar.gz',    # I explain this later on
   keywords = ['ML', 'preprocessing'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'scikit_learn',
