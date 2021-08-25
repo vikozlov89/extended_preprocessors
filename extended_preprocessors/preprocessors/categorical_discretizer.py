@@ -1,5 +1,5 @@
 import numpy as np
-from preprocessors.feature_discretizer import FeatureDiscretizer
+from extended_preprocessors.preprocessors.feature_discretizer import FeatureDiscretizer
 
 
 class CategoricalFeatureDiscretizer(FeatureDiscretizer):

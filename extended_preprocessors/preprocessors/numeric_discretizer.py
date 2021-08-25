@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn.preprocessing import KBinsDiscretizer
-from preprocessors.feature_discretizer import FeatureDiscretizer
+from extended_preprocessors.preprocessors.feature_discretizer import FeatureDiscretizer
 
 
 class NumericalFeatureDiscretizer(FeatureDiscretizer):

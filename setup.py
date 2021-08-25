@@ -18,7 +18,7 @@ setup(
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: ML specialists',      # Define that your audience are developers
-    'Topic :: ML :: Preprocessors',
+    'Topic :: Programming Language :: ML',
     'License :: OSI Approved :: GNU General Public License v3.0',   # Again, pick a license
     'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
     'Programming Language :: Python :: 3.8',
