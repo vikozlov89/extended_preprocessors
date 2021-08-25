@@ -1,8 +1,8 @@
-from .preprocessors.bins_linearizer import BinsLinearizer
-from .preprocessors.coef_maker import CoefficientMaker
-from .preprocessors.numeric_discretizer import NumericalFeatureDiscretizer
-from .preprocessors.categorical_discretizer import CategoricalFeatureDiscretizer
-from .preprocessors.feature_selector import FeatureSelector
-from .preprocessors.dataset_linearizer import DatasetLinearizer
-from .preprocessors.dataset_binarizer import DatasetBinarizer
+from bins_linearizer import BinsLinearizer
+from coef_maker import CoefficientMaker
+from numeric_discretizer import NumericalFeatureDiscretizer
+from categorical_discretizer import CategoricalFeatureDiscretizer
+from feature_selector import FeatureSelector
+from dataset_linearizer import DatasetLinearizer
+from dataset_binarizer import DatasetBinarizer
 
