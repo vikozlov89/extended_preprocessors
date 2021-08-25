@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'extended_preprocessors',         # How you named your package folder (MyLib)
   packages = ['extended_preprocessors'],   # Chose the same as "name"
-  version = '0.0.1',      # Start with a small number and increase it with every change you make
+  version = '0.0.2',      # Start with a small number and increase it with every change you make
   license='gpl-3.0',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A set of useful preprocessors for machine learning.',   # Give a short description about your library
   author = 'Vladislav Kozlov',                   # Type in your name
