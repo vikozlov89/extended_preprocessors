@@ -1,5 +1,7 @@
 from extended_preprocessors.bins_linearizer import BinsLinearizer
-from extended_preprocessors.feature_by_feature_transformer import FeatureByFeatureTransformer
+from extended_preprocessors.feature_by_feature_transformer import (
+    FeatureByFeatureTransformer,
+)
 
 
 class DatasetLinearizer(FeatureByFeatureTransformer):

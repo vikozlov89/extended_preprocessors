@@ -22,7 +22,9 @@ class FeatureDiscretizer(TransformerMixin):
         unique_values = np.unique(X).shape[0]
         return min(self.max_bins, unique_values)
 
-    def _make_bins_map(self, bins: np.ndarray, y: np.ndarray) -> dict:
+    def _make_bins_map(
+        self, bins: np.ndarray, y: np.ndarray, encode_with_expected: bool = False
+    ) -> dict:
         unique_bins = np.unique(bins)
         means = []
         for bin_value in unique_bins:
@@ -31,7 +33,11 @@ class FeatureDiscretizer(TransformerMixin):
             else:
                 means.append((bin_value, y[bins.flatten() == bin_value].mean()))
         means = sorted(means, key=lambda x: x[1])
-        result = {
-            m[0]: i + 1 for i, m in enumerate(means)
-        }  # +1 to make mapped bin number always be > 0
+
+        if encode_with_expected:
+            result = {bin_val: expected for bin_val, expected in means}
+        else:
+            result = {
+                m[0]: i + 1 for i, m in enumerate(means)
+            }  # +1 to make mapped bin number always be > 0
         return result

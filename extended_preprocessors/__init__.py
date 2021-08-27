@@ -5,4 +5,3 @@ from extended_preprocessors.categorical_discretizer import CategoricalFeatureDis
 from extended_preprocessors.feature_selector import FeatureSelector
 from extended_preprocessors.dataset_linearizer import DatasetLinearizer
 from extended_preprocessors.dataset_binarizer import DatasetBinarizer
-
